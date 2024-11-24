@@ -1,101 +1,94 @@
 import Image from "next/image";
+import Link from "next/link";
+import { articles } from "./data/articles";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const featuredArticle = articles[0];
+  const topStories = articles.slice(1, 4);
+  const latestNews = articles.slice(4, 10);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+  return (
+    <main className="container mx-auto px-4 py-8">
+      {/* Featured Story */}
+      <div className="mb-12">
+        <Link href={`/articles/${featuredArticle.id}`} className="group">
+          <div className="relative h-[600px] w-full mb-4">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src={featuredArticle.image}
+              alt={featuredArticle.title}
+              fill
+              className="object-cover rounded-lg"
+              priority
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent text-white rounded-b-lg">
+              <span className="text-sm font-semibold bg-[#125740] px-3 py-1 rounded-full">
+                {featuredArticle.category}
+              </span>
+              <h1 className="text-4xl font-bold mt-3 mb-2 group-hover:text-[#125740] transition-colors">
+                {featuredArticle.title}
+              </h1>
+              <p className="text-lg text-gray-200">{featuredArticle.summary}</p>
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      {/* Top Stories */}
+      <div className="mb-12">
+        <h2 className="text-2xl font-bold mb-6 pb-2 border-b-2 border-[#125740]">
+          Top Stories
+        </h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          {topStories.map((article) => (
+            <Link key={article.id} href={`/articles/${article.id}`} className="group">
+              <div className="relative h-[240px] mb-3">
+                <Image
+                  src={article.image}
+                  alt={article.title}
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
+              <span className="text-sm font-semibold text-[#125740]">
+                {article.category}
+              </span>
+              <h3 className="text-xl font-bold mt-2 group-hover:text-[#125740] transition-colors">
+                {article.title}
+              </h3>
+              <p className="text-gray-600 mt-2 line-clamp-2">{article.summary}</p>
+            </Link>
+          ))}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      {/* Latest News */}
+      <div>
+        <h2 className="text-2xl font-bold mb-6 pb-2 border-b-2 border-[#125740]">
+          Latest News
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {latestNews.map((article) => (
+            <Link key={article.id} href={`/articles/${article.id}`} className="group flex gap-4">
+              <div className="relative h-[100px] w-[150px] flex-shrink-0">
+                <Image
+                  src={article.image}
+                  alt={article.title}
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
+              <div>
+                <span className="text-sm font-semibold text-[#125740]">
+                  {article.category}
+                </span>
+                <h3 className="font-bold mt-1 group-hover:text-[#125740] transition-colors line-clamp-2">
+                  {article.title}
+                </h3>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </main>
   );
 }
