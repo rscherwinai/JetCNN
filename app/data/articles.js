@@ -1,143 +1,70 @@
 export const articles = [
   {
     id: 1,
-    title: "Aaron Rodgers' Remarkable Recovery: Inside the QB's Push for 2024 Return",
-    summary: "An in-depth look at how the Jets' quarterback is defying medical timelines in his rehabilitation process.",
-    image: "/images/articles/rodgers-recovery.jpg",
-    date: "2024-03-15",
-    category: "Analysis",
-    content: `In a remarkable display of determination, Aaron Rodgers continues to defy expectations in his recovery from an Achilles injury. Sources close to the Jets' quarterback reveal his intensive rehabilitation routine, combining cutting-edge medical treatments with traditional strength training.
+    title: "Aaron Rodgers Returns to Practice Field in Promising Development",
+    excerpt: "In a significant development for the New York Jets, quarterback Aaron Rodgers was seen throwing passes during individual drills at the team's practice facility on Wednesday...",
+    content: `In a significant development for the New York Jets, quarterback Aaron Rodgers was seen throwing passes during individual drills at the team's practice facility on Wednesday. The four-time NFL MVP, who is recovering from a torn Achilles suffered in Week 1, showed encouraging mobility and arm strength during the 15-minute session open to media. Head coach Robert Saleh emphasized that while this marks a positive step in Rodgers' rehabilitation process, the team will continue to take a cautious approach with their star quarterback's recovery.
 
-    "The progress has been nothing short of extraordinary," notes Jets' head trainer Mark Johnson. "Aaron's dedication to his recovery is setting new standards for rehabilitation timelines."
+Team doctors and rehabilitation specialists have worked closely with Rodgers throughout his recovery, implementing an innovative treatment protocol that includes advanced physical therapy techniques and specialized conditioning exercises. The quarterback's dedication to his recovery has impressed the medical staff, with one team physician noting his "extraordinary commitment to the rehabilitation process."
 
-    The four-time MVP has been spotted at the Jets' facility regularly, mentoring younger players while maintaining his rigorous recovery schedule. Team officials remain optimistic about his return for the 2024 season opener.`
+Several teammates expressed excitement about seeing Rodgers back on the practice field. "It gives the whole team a boost just having him out there," said wide receiver Garrett Wilson. "His presence alone elevates everyone's energy level." Veteran offensive lineman Connor McGovern added, "Aaron's leadership hasn't wavered during his recovery. He's been in every meeting, helping mentor the younger guys, and staying fully engaged with the team."
+
+The Jets' medical staff has been coordinating with specialists who have experience with similar high-profile athlete recoveries. Dr. Sarah Martinez, a leading sports medicine specialist consulting with the team, explained that Rodgers' recovery timeline is unprecedented. "What we're seeing in terms of his progress is remarkable. His dedication to the rehabilitation protocol and his body's response to treatment have exceeded our initial expectations."
+
+Looking ahead, the Jets organization remains cautiously optimistic about Rodgers' potential return timeline. While no specific date has been set, the quarterback's progress has sparked speculation about a possible late-season return. However, both the medical staff and coaching team emphasize that any decision will prioritize Rodgers' long-term health and the team's future success.`,
+    date: "2023-12-13",
+    image: "/images/rodgers-practice.jpg",
+    category: "Team News"
   },
   {
     id: 2,
-    title: "Jets' Draft Strategy: The Case for Offensive Line in First Round",
-    summary: "Breaking down why the Jets must prioritize protecting Aaron Rodgers in the 2024 NFL Draft.",
-    image: "/images/articles/jets-draft.jpg",
-    date: "2024-03-14",
-    category: "Draft",
-    content: `With the NFL Draft approaching, the Jets' front office faces a crucial decision that could define their 2024 season. The priority? Strengthening the offensive line to protect their returning quarterback.
+    title: "Jets Defense Ranks Top 5 in Multiple Categories Despite Offensive Struggles",
+    excerpt: "The New York Jets' defense continues to be a bright spot in an otherwise challenging season...",
+    content: `The New York Jets' defense continues to be a bright spot in an otherwise challenging season, ranking third in passing yards allowed and fourth in total defense through Week 14. Defensive coordinator Jeff Ulbrich's unit has been particularly impressive in the red zone, holding opponents to just a 43% touchdown rate, a statistic that places them among the NFL's elite defensive units.
 
-    Analysis of the 2023 season reveals concerning statistics about the Jets' pass protection, highlighting the urgent need for reinforcement in the trenches.`
+The secondary, led by cornerbacks Sauce Gardner and D.J. Reed, has established itself as one of the NFL's premier defensive backfields. Gardner, the reigning Defensive Rookie of the Year, has allowed just a 54.3% completion rate when targeted, while Reed has recorded three interceptions and 12 passes defended this season. Safety Jordan Whitehead has also emerged as a key playmaker, leading the team with five interceptions and providing crucial run support.
+
+The defensive line's dominance has been equally impressive, with Quinnen Williams anchoring a unit that's generated consistent pressure on opposing quarterbacks. Williams leads the team with 8.5 sacks and has recorded 24 quarterback hits, showcasing his ability to disrupt both the run and pass game. "Our defensive line's ability to create pressure without blitzing has been crucial to our success," explained Ulbrich during a recent press conference. "It allows us to be more creative with our coverage schemes."
+
+Linebacker C.J. Mosley has been the quarterback of the defense, calling plays and ensuring proper alignments. His leadership has been particularly valuable in developing young talents like Jamien Sherwood and Quincy Williams. "C.J.'s football IQ is off the charts," praised head coach Robert Saleh. "He's essentially an extension of our coaching staff on the field."
+
+The emergence of rookie Will McDonald IV has added another dimension to the Jets' pass rush. The first-round pick has shown flashes of brilliance, recording 4.5 sacks in limited playing time and providing valuable depth to the defensive line rotation. Veterans like John Franklin-Myers and Bryce Huff have also contributed significantly, making the Jets' defensive front one of the deepest in the league.`,
+    date: "2023-12-12",
+    image: "/images/jets-defense.jpg",
+    category: "Analysis"
   },
   {
     id: 3,
-    title: "Garrett Wilson: 'We're Building Something Special Here'",
-    summary: "Exclusive interview with the Jets' star receiver on his expectations for the 2024 season.",
-    image: "/images/articles/wilson-interview.jpg",
-    date: "2024-03-13",
-    category: "Interview",
-    content: `In an exclusive sit-down interview, Garrett Wilson shares his thoughts on the team's direction and his chemistry with Aaron Rodgers. "The energy in the building is different," Wilson explains. "We know we're on the verge of something special."`
+    title: "Garrett Wilson Breaks Franchise Record as Bright Spot in Jets Offense",
+    excerpt: "Second-year wide receiver Garrett Wilson achieved a significant milestone on Sunday...",
+    content: `Second-year wide receiver Garrett Wilson achieved a significant milestone on Sunday, becoming the first Jets receiver to record 80+ receptions in consecutive seasons. The Ohio State product has showcased remarkable consistency and resilience, maintaining elite production despite working with four different quarterbacks throughout the turbulent season.
+
+Wilson's route-running precision and ability to create separation have drawn praise from analysts and opponents alike. Former NFL receiver Steve Smith Sr., now an NFL Network analyst, commented, "What Garrett's doing with inconsistent quarterback play is nothing short of remarkable. His route tree is already among the most sophisticated in the league, and he's only in his second year."
+
+The young receiver's impact extends beyond the stat sheet. Offensive coordinator Nathaniel Hackett praised Wilson's work ethic and leadership in the receivers' room. "Garrett sets the standard in practice every day," Hackett explained. "His attention to detail in film study and route preparation has influenced our entire receiving corps. He's becoming the type of player that elevates everyone around him."
+
+Despite facing frequent double teams and being the focus of opposing defensive game plans, Wilson has maintained his effectiveness. His 847 receiving yards account for nearly 40% of the Jets' passing offense, highlighting his crucial role in the team's aerial attack. Pro Football Focus has graded him as one of the top receivers in contested catch situations, with a remarkable 72% success rate on such opportunities.
+
+Looking ahead, Wilson's trajectory suggests he could become one of the franchise's all-time great receivers. "The scary thing is, he's just scratching the surface of his potential," noted receivers coach Zach Azzanni. "His understanding of defensive concepts and ability to adjust mid-game has grown exponentially since his rookie year."`,
+    date: "2023-12-11",
+    image: "/images/garrett-wilson.jpg",
+    category: "Player Spotlight"
   },
   {
     id: 4,
-    title: "Jets Defense Ranks #1 in Key Metrics: Breaking Down the Numbers",
-    summary: "Statistical analysis reveals the Jets' defense as one of the NFL's elite units.",
-    image: "/images/articles/defense-analysis.jpg",
-    date: "2024-03-12",
-    category: "Analysis",
-    content: `A deep dive into the defensive statistics shows the Jets' dominance in multiple categories. From pass coverage to run stopping, the numbers tell a compelling story of defensive excellence.`
-  },
-  {
-    id: 5,
-    title: "Saleh's Vision: Head Coach Outlines Path to Playoffs",
-    summary: "Robert Saleh discusses team culture and expectations for the upcoming season.",
-    image: "/images/articles/saleh-presser.jpg",
-    date: "2024-03-11",
-    category: "News",
-    content: `Head Coach Robert Saleh's press conference revealed detailed plans for the team's development and his expectations for the 2024 season. "The foundation is set," Saleh declared. "Now it's time to build upon it."`
-  },
-  {
-    id: 6,
-    title: "Breece Hall's Sophomore Surge: RB Ready for Expanded Role",
-    summary: "Running back Breece Hall prepares for increased responsibilities in the offense.",
-    image: "/images/articles/hall-comeback.jpg",
-    date: "2024-03-10",
-    category: "Player Focus",
-    content: `After an impressive rookie campaign, Breece Hall is poised for an even bigger role in the Jets' offense. Training staff and coaches discuss his development and potential impact.`
-  },
-  {
-    id: 7,
-    title: "Jets' Free Agency Moves Reshape Roster",
-    summary: "Analysis of key signings and departures during the offseason.",
-    image: "/images/articles/offseason-moves.jpg",
-    date: "2024-03-09",
-    category: "Free Agency",
-    content: `A comprehensive look at the Jets' free agency strategy, including detailed analysis of new signings and their potential impact on the team's success.`
-  },
-  {
-    id: 8,
-    title: "2024 Schedule Preview: Jets Face Tough Early Tests",
-    summary: "Breaking down the Jets' 2024 schedule and key matchups.",
-    image: "/images/articles/schedule-preview.jpg",
-    date: "2024-03-08",
-    category: "Schedule",
-    content: `An in-depth analysis of the Jets' 2024 schedule, highlighting crucial divisional games and potential playoff implications throughout the season.`
-  },
-  {
-    id: 9,
-    title: "Rookie Class Making Early Impact in OTAs",
-    summary: "Early impressions of the Jets' 2024 draft class during organized team activities.",
-    image: "/images/articles/rookie-impact.jpg",
-    date: "2024-03-07",
-    category: "Rookie Development",
-    content: `The Jets' rookie class has impressed coaches during early practices. Position coaches and veterans share their thoughts on the newcomers' potential.`
-  },
-  {
-    id: 10,
-    title: "MetLife Stadium Upgrades: What Fans Need to Know",
-    summary: "Details on new stadium features and improvements for the 2024 season.",
-    image: "/images/articles/stadium-upgrades.jpg",
-    date: "2024-03-06",
-    category: "Stadium News",
-    content: `MetLife Stadium undergoes significant upgrades to enhance the fan experience. New features include improved concessions, updated video boards, and enhanced mobile connectivity.`
-  },
-  {
-    id: 11,
-    title: "Fan Experience: New Gameday Features Announced",
-    summary: "Jets reveal new initiatives to improve the gameday experience.",
-    image: "/images/articles/fan-experience.jpg",
-    date: "2024-03-05",
-    category: "Fan Zone",
-    content: `The Jets organization announces new fan-focused initiatives for the 2024 season, including enhanced mobile apps, exclusive content, and improved stadium amenities.`
-  },
-  {
-    id: 12,
-    title: "Team Chemistry: Inside the Jets' Locker Room",
-    summary: "A look at the strong bonds forming among Jets players.",
-    image: "/images/articles/team-chemistry.jpg",
-    date: "2024-03-04",
-    category: "Feature",
-    content: `Players and coaches discuss the unique chemistry developing within the team. Veterans and newcomers alike praise the positive culture shift.`
-  },
-  {
-    id: 13,
-    title: "Coaching Staff Additions Bring New Perspective",
-    summary: "Jets announce several key additions to the coaching staff.",
-    image: "/images/articles/coaching-changes.jpg",
-    date: "2024-03-03",
-    category: "Coaching",
-    content: `The Jets welcome new position coaches and analysts to the staff, bringing fresh perspectives and innovative strategies to the team.`
-  },
-  {
-    id: 14,
-    title: "Playoff Push: Analytics Preview Jets' Postseason Chances",
-    summary: "Statistical models project Jets' playoff odds for 2024 season.",
-    image: "/images/articles/playoff-push.jpg",
-    date: "2024-03-02",
-    category: "Analysis",
-    content: `Advanced analytics suggest the Jets are well-positioned for a playoff run. Key factors include defensive strength and offensive improvements.`
-  },
-  {
-    id: 15,
-    title: "Training Camp Preview: What to Watch For",
-    summary: "Key storylines and position battles heading into training camp.",
-    image: "/images/articles/training-camp.jpg",
-    date: "2024-03-01",
-    category: "Training Camp",
-    content: `A comprehensive preview of the upcoming training camp, including position battles to watch and key dates for fans to remember.`
+    title: "Jets Announce Major Stadium Upgrades for 2024 Season",
+    excerpt: "The New York Jets have unveiled plans for significant improvements to MetLife Stadium...",
+    content: `The New York Jets have unveiled plans for significant improvements to MetLife Stadium, set to be completed before the 2024 season. The $100 million renovation project represents the most substantial upgrade to the facility since its opening in 2010, demonstrating the organization's commitment to enhancing the fan experience.
+
+The centerpiece of the renovation will be the installation of state-of-the-art video boards in all four corners of the stadium, featuring 4K resolution and nearly double the size of the current displays. The project also includes a complete overhaul of the concession areas, introducing modern ordering systems and an expanded menu featuring local New York and New Jersey restaurants. "We want to create a gameday experience that matches the passion of our fanbase," explained Jets president Hymie Elhai.
+
+Technology improvements form a crucial part of the upgrade plan. The entire stadium will receive enhanced 5G connectivity and Wi-Fi 6E capabilities, ensuring fans can stay connected throughout the game. A new mobile app will allow fans to order concessions directly to their seats, view multiple camera angles of live game action, and access real-time statistics and instant replays.
+
+The Jets Hall of Fame experience will be completely reimagined, featuring interactive exhibits, virtual reality installations, and a rotating collection of historical memorabilia. "We're creating a space that honors our rich history while embracing modern technology," said Senior Vice President of Fan Experience Mark Fernandez. "Fans will be able to immerse themselves in the greatest moments of Jets history through cutting-edge interactive displays."
+
+The renovation plans also include significant sustainability initiatives. Solar panels will be installed on the stadium roof, and new waste management systems will aim to make MetLife Stadium one of the most environmentally friendly venues in professional sports. The organization has committed to reducing its carbon footprint by 30% over the next five years.`,
+    date: "2023-12-10",
+    image: "/images/metlife-stadium.jpg",
+    category: "Stadium News"
   }
 ]; 

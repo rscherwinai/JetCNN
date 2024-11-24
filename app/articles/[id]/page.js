@@ -21,11 +21,13 @@ export default function ArticlePage({ params }) {
               src={article.image}
               alt={article.title}
               fill
-              className="object-cover"
+              className="object-cover rounded-lg"
             />
           </div>
-          <div className="prose lg:prose-xl">
-            {article.content}
+          <div className="prose lg:prose-xl max-w-none">
+            {article.content.split('\n\n').map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
           </div>
         </article>
       </main>
